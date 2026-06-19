@@ -1,0 +1,6 @@
+{
+  "name": "CG-CAL",
+  "description": "Smart CGPA calculator and grade prediction platform for Khulna University students featuring interactive dashboards, offline support, and smart course analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
