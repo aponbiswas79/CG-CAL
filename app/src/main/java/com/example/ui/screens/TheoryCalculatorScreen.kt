@@ -151,7 +151,7 @@ fun TheoryCalculatorScreen(
                     OutlinedTextField(
                         value = ct1,
                         onValueChange = { academicViewModel.theoryCt1.value = it },
-                        label = { Text("CT 1 (Max 20)") },
+                        label = { Text("CT 1 (Max 30)") },
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
                         modifier = Modifier.weight(1f),
                         singleLine = true
@@ -159,7 +159,7 @@ fun TheoryCalculatorScreen(
                     OutlinedTextField(
                         value = ct2,
                         onValueChange = { academicViewModel.theoryCt2.value = it },
-                        label = { Text("CT 2 (Max 20)") },
+                        label = { Text("CT 2 (Max 30)") },
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
                         modifier = Modifier.weight(1f),
                         singleLine = true
@@ -180,7 +180,7 @@ fun TheoryCalculatorScreen(
                     OutlinedTextField(
                         value = ct3,
                         onValueChange = { academicViewModel.theoryCt3.value = it },
-                        label = { Text("CT 3 (Max 20)") },
+                        label = { Text("CT 3 (Max 30)") },
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
                         modifier = Modifier.weight(1f),
                         singleLine = true
@@ -188,7 +188,7 @@ fun TheoryCalculatorScreen(
                     OutlinedTextField(
                         value = ct4,
                         onValueChange = { academicViewModel.theoryCt4.value = it },
-                        label = { Text("CT 4 (Max 20)") },
+                        label = { Text("CT 4 (Max 30)") },
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
                         modifier = Modifier.weight(1f),
                         singleLine = true
